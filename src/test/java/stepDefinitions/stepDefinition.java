@@ -21,7 +21,8 @@ public class stepDefinition {
     @When("^user login into application$")
     public void user_login_into_application() throws Throwable {
        
-    	System.out.println("This is When code");      
+    	System.out.println("This is When code"); 
+    	System.out.println("This is to test GIT operation");
         
     }
     @Then("^HomePage is populates$")
