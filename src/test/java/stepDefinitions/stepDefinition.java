@@ -23,18 +23,24 @@ public class stepDefinition {
        
     	System.out.println("This is When code"); 
     	System.out.println("This is to test GIT operation");
+
+    	System.out.println("This is When code");   
+    	System.out.println("This is for devolop branch");
+
         
     }
     @Then("^HomePage is populates$")
     public void homepage_is_populates() throws Throwable {
         
     	System.out.println("This is Then -1 code");
+    	System.out.println("This is for devolop branch");
         
     }
     @And("^Cards are displayed$")
     public void cards_are_displayed() throws Throwable {
         
     	System.out.println("This is Then -2 code");
+    	System.out.println("This is for devolop branch");
        
     }
     
